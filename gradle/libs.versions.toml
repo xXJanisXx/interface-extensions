@@ -1,0 +1,21 @@
+[versions]
+shadow = "9.3.0"
+kotlin = "2.0.20"
+kotlin-coroutines = "1.10.2"
+
+interfaces = "2.0.2-SNAPSHOT"
+
+paper = "1.21.11-R0.1-SNAPSHOT"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }
+
+paper-api = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
+
+interfaces = { module = "com.noxcrew.interfaces:interfaces", version.ref = "interfaces"}
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
