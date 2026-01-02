@@ -3,6 +3,7 @@
 ## Features
 - [x] Dropper interfaces
 - [x] Hopper interfaces
+- [x] Anvil interfaces
 
 ## Usage
 ```kt
