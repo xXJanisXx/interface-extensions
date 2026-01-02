@@ -7,7 +7,7 @@ plugins {
 
 allprojects {
     group = "dev.xxjanisxx.interfaces"
-    version = "0.0.1"
+    version = "0.0.2"
 
     repositories {
         mavenCentral()
