@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.xxjanisxx.interfaces:interfaces:0.0.5")
+    implementation("dev.xxjanisxx.interfaces:interfaces:0.0.6")
 }
 ```
