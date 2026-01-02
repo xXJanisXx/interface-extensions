@@ -2,7 +2,7 @@
 
 ## Features
 - [x] Dropper interfaces
-- [ ] Hopper interfaces
+- [x] Hopper interfaces
 
 ## Usage
 ```kt
@@ -11,6 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.xxjanisxx.interfaces:interfaces:0.0.4")
+    implementation("dev.xxjanisxx.interfaces:interfaces:0.0.5")
 }
 ```
